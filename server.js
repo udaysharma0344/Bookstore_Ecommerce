@@ -27,7 +27,6 @@ app.get("/", (req, res) => {
 
 
 
-console.log("jai shree ram ")
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT} in ${process.env.DEV_MODE}`)
 })
